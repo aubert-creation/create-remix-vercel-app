@@ -58,8 +58,6 @@ async function setup() {
 
     await runCmd('npx rimraf ./.git');
 
-    fs.unlinkSync(path.join(appPath, 'package.json'));
-
     console.log(
       '\x1b[32m',
       'The installation is done, this is ready to use !',
