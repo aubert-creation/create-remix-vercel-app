@@ -1,0 +1,14 @@
+{
+  "name": "create-remix-vercel-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "license": "",
+  "sideEffects": false,
+  "bin": {
+    "create-remix-vercel-app": "./bin/generate-app.js"
+  },
+  "dependencies": {
+    "rimraf": "^3.0.2"
+  }
+}
